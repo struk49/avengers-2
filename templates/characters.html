@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avengers</title>
+</head>
+<body>
+    {% for character in characters %}
+        {{ characters.name}}<br>
+        {{ character_info.name }}<br>
+        {{ character.character_description }}<br>
+    {% endfor %}
+</body>
+</html>
